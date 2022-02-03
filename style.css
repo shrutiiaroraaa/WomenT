@@ -1,0 +1,36 @@
+.navbar{
+   background-color: rgb(185, 146, 221); 
+   height: 100%;
+   width: 500%;
+   margin: auto;
+   padding-left: 60px;
+   flex: 1;
+   align-items: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    align-items: center;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navbar ul li a:hover{
+    color: brown;
+
+}
+
+*{
+   padding: 0;
+   margin: 0%;
+}
+
+.container{
+    color: rgb(180, 164, 194);
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+
+}
