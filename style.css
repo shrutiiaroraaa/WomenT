@@ -1,36 +1,144 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+
+.home .text{
+    width: 35%;
+    padding: 0 60px;
+    display:flex ;
+} 
+ 
+ 
+.logo{
+    padding: 0 0;
+    margin: 0 0;
+} 
+
+
 .navbar{
-   background-color: rgb(185, 146, 221); 
-   height: 100%;
-   width: 500%;
-   margin: auto;
-   padding-left: 60px;
-   flex: 1;
-   align-items: center;
+    background-color:#ffffff;
+    display: flex;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px;
 }
 
 .navbar ul li{
-    list-style-type: none;
-    align-items: center;
+   
+    list-style: none;
+    margin: 20px;
+    
+  
+    
+}
+
+.navbar ul li a{
+    padding: 30px 30px;
+    text-decoration: none;
+    
+    
+}
+
+.logo {
     display: inline-block;
-    margin: 0px 20px;
+    vertical-align: top;
+    
+    
 }
 
-.navbar ul li a:hover{
-    color: brown;
+.options{
+    display: flex;
+}
+
+.btn-1{
+    background-color: #CC0C63;
+    padding: 10px 10px ;
+    margin: 20px 0px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #ffffff;
+
+  
+}
+
+a.btn-1:hover{
+    border:1px solid #000000;
+   }
+
+/* hero section ki css yaha se start  */
+
+.hero-section{
+    display: flex;
+    grid-template-columns: repeat(2. 700px , 1fr);
+    align-items: center;
+    margin-top: 30px;
+    background-color: #CC0C63;
+
 
 }
 
-*{
-   padding: 0;
-   margin: 0%;
+.text{
+    margin-left: 60px;
+    margin-bottom: 100px;
 }
 
-.container{
-    color: rgb(180, 164, 194);
+.text h3{
+    margin-top: -35px;
+    color: #eee3e8;
 }
 
-.logo{
-    width: 100px;
+.text hr{
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.text .btn-1{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background:#eee3e8;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #0e0c0c;
     cursor: pointer;
+    transition: transform .3s;
 
+}
+
+.text .btn-1:hover{
+    transform: translate(5px);
+    background-color: rgb(173, 173, 173);
+
+}
+
+.text .btn-2{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background:#eee3e8;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #0e0c0c;
+    cursor: pointer;
+    transition: transform .3s;
+
+}
+
+.text .btn-2:hover{
+    transform: translate(5px);
+    background-color: rgb(173, 173, 173);
+
+}
+
+.about{
+    background-color: #ffffff;
 }
